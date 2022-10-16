@@ -61,3 +61,5 @@ js/ts.js
 
 
 .DS_Store
+
+typescript/**/*.js
