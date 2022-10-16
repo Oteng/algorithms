@@ -1,4 +1,4 @@
-
+# Sort in increasing order
 def insertion_sort(arr):
     for i in range(1, len(arr)):
         value = arr[i]
@@ -9,6 +9,7 @@ def insertion_sort(arr):
         arr[j + 1] = value
     return arr
 
+# Sort in decreasing order
 def insertion_sort_dec(arr):
     for i in range(1, len(arr)):
         value = arr[i]
@@ -19,8 +20,8 @@ def insertion_sort_dec(arr):
         arr[j + 1] = value
     return arr
 
-    
-if __name__ == '__main__':
 
-    print(insertion_sort([5,2,4,6,1,3]))
-    print(insertion_sort_dec([5,2,4,6,1,3]))
+if __name__ == '__main__':
+# Tests
+    print('Array sorted in ascending order: ', insertion_sort([5,2,4,6,1,3]))
+    print('Array sorted in descending order: ', insertion_sort_dec([5,2,4,6,1,3]))
